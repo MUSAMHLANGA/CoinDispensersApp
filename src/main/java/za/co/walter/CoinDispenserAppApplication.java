@@ -1,4 +1,4 @@
-package CoinDispenserApp;
+package za.co.walter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

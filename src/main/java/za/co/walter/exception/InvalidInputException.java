@@ -1,4 +1,4 @@
-package CoinDispenserApp.exception;
+package za.co.walter.exception;
 
 public class InvalidInputException extends RuntimeException{
 

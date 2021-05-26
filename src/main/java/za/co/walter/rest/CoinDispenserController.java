@@ -1,13 +1,13 @@
-package CoinDispenserApp.rest;
+package za.co.walter.rest;
 
 
-import CoinDispenserApp.exception.InternalServerException;
-import CoinDispenserApp.exception.InvalidInputException;
+import za.co.walter.exception.InternalServerException;
+import za.co.walter.exception.InvalidInputException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import CoinDispenserApp.service.CoinDispenserService;
+import za.co.walter.service.CoinDispenserService;
 
 import javax.validation.constraints.Min;
 

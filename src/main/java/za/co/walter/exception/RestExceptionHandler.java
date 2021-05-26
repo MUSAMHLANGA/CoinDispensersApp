@@ -1,4 +1,4 @@
-package CoinDispenserApp.exception;
+package za.co.walter.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

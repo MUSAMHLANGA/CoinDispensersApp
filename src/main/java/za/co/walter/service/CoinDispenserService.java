@@ -1,4 +1,4 @@
-package CoinDispenserApp.service;
+package za.co.walter.service;
 
 import org.springframework.stereotype.Service;
 

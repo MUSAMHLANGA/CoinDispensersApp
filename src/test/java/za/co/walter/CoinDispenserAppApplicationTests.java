@@ -1,16 +1,17 @@
-package com.coinDispenser.CoinDispenserApp;
+package za.co.walter;
 
-import CoinDispenserApp.exception.InternalServerException;
-import CoinDispenserApp.exception.InvalidInputException;
-import CoinDispenserApp.rest.CoinDispenserController;
-import CoinDispenserApp.service.CoinDispenserService;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import za.co.walter.exception.InternalServerException;
+import za.co.walter.exception.InvalidInputException;
+import za.co.walter.rest.CoinDispenserController;
+import za.co.walter.service.CoinDispenserService;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class CoinDispenserAppApplicationTests {
 
+	@Autowired
 	CoinDispenserService dispenserService;
 	CoinDispenserController coinDispenserController;
 
